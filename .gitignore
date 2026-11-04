@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Downloaded automatically on first run (too large for git)
+models/
+
+# Personal recordings
+recordings/
+
+# Partial downloads, macOS
+*.part
+.DS_Store

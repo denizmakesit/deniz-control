@@ -1,0 +1,11 @@
+# Python 3.11. Versions verified on macOS 26.3 / Apple Silicon (M4), Nov 2026.
+# MediaPipe pulls in opencv-contrib-python, so do NOT also install opencv-python
+# (the two packages conflict).
+mediapipe==1.2.0
+opencv-contrib-python==5.0.0.93
+numpy==2.4.6
+pyautogui==0.9.54
+# Voice (offline English speech recognition with whisper.cpp + Metal; ~4 MB,
+# no PyTorch). sounddevice is also installed by mediapipe; pinned explicitly here.
+pywhispercpp==1.5.1
+sounddevice==0.5.6
