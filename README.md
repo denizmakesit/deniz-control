@@ -41,7 +41,7 @@ macOS only: the app uses AVFoundation (camera), Quartz (mouse and keyboard event
 ## Quick start
 
 ```bash
-git clone https://github.com/deniz6900357/deniz-control.git
+git clone https://github.com/denizmakesit/deniz-control.git
 cd deniz-control
 
 python3.11 -m venv .venv
